@@ -1,0 +1,12 @@
+Error time: 2025-12-26 15:46:48.809821
+Error: Error executing git commands: Error in git push: To github.com:sinalalebakhsh/push-py.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:sinalalebakhsh/push-py.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Config: {'initial_interval': 60, 'normal_interval': 300, 'initial_checks': 3, 'max_retries': 3, 'error_log_dir': 'git_auto_errors', 'timeout': 10, 'branch': 'main', 'log_file': 'git_auto_log.txt', 'max_log_lines': 2000, 'log_rotation_size': 1000, 'version_file': '.git_auto_version'}
+Platform: win32

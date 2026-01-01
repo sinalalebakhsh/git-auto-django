@@ -5,12 +5,12 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "git-auto-django"
 version = "1.1.3"
-description = "Automatic git commit & push tool for Django projects"
+description = "Automatic Git commit & push tool for Django projects"
 authors = [
-  { name="Sina Lalebakhsh" }
+  { name = "Sina Lalebakhsh" }
 ]
 readme = "README.md"
-license = { text = "MIT" }
+license = "MIT"
 requires-python = ">=3.8"
 dependencies = [
   "requests"
@@ -19,4 +19,8 @@ dependencies = [
 [project.scripts]
 git-auto = "git_auto.main:cli"
 
+[tool.setuptools]
+package-dir = {"" = "src"}
 
+[tool.setuptools.packages.find]
+where = ["src"]

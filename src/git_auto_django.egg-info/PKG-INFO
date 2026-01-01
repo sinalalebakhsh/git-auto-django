@@ -1,4 +1,16 @@
-# git-auto-django 🚀
+Metadata-Version: 2.4
+Name: git-auto-django
+Version: 1.1.3
+Summary: Automatic Git commit & push tool for Django projects
+Author: Sina Lalebakhsh
+License-Expression: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Dynamic: license-file
+
+# push-py 🚀
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Git](https://img.shields.io/badge/Git-Automation-orange)
